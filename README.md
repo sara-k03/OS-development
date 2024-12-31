@@ -12,5 +12,6 @@ qemu-system-i386 -fda build/main_floppy.img
 ## What Each File Does
 src/main.asm
 - A minimal bootloader that halts the CPU or enters an infinite loop (a bootloader is a program that starts a computer by loading it into memory)
+
 Makefile
 - Assembles bootloader program (main.asm) and packages it into a floppy disk image 
