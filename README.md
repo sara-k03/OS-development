@@ -7,7 +7,7 @@ Learning about Operating Systems by creating my own OS with the following [tutor
 - qemu
 ## Command to Run OS::
 ```bash
-qemu-system-i386 -fda build/main_floppy.img 
+make && qemu-system-i386 -fda build/main_floppy.img 
 ```
 ## What Each File Does
 src/main.asm
